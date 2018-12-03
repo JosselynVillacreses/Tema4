@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="100dp">
+    <item
+        android:id="@+id/item1"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="Send"
+        android:titleCondensed="Send"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="Send"
+        android:titleCondensed="string"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:icon="?attr/actionModeCopyDrawable"
+        android:title="Send"
+        android:titleCondensed="string"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/item4"
+        android:icon="?attr/actionModeCutDrawable"
+        android:title="Send"
+        android:titleCondensed="string"
+        app:showAsAction="always">
+
+    </item>
+
+
+</menu>
