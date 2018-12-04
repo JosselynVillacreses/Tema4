@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/create"
     android:title="Create"
-        app:showAsAction="ifRoom"></item>
+        app:showAsAction="always"></item>
     <item android:id="@+id/read"
     android:title="Read"
-        app:showAsAction="never"></item>
+        app:showAsAction="always"></item>
     <item android:id="@+id/update"
     android:title="Update"
          app:showAsAction="never"></item>
